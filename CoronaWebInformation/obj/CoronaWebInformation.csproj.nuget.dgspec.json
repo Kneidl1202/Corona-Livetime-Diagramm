@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Coding VisualStudio\\CoronaDiagram\\CoronaWebInformation\\CoronaWebInformation.csproj": {}
+    "C:\\Users\\Andreas\\OneDrive - Bildungsdirektion\\201920\\aut\\C#\\Corona-Livetime-Diagramm\\CoronaWebInformation\\CoronaWebInformation.csproj": {}
   },
   "projects": {
-    "E:\\Coding VisualStudio\\CoronaDiagram\\CoronaWebInformation\\CoronaWebInformation.csproj": {
+    "C:\\Users\\Andreas\\OneDrive - Bildungsdirektion\\201920\\aut\\C#\\Corona-Livetime-Diagramm\\CoronaWebInformation\\CoronaWebInformation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Coding VisualStudio\\CoronaDiagram\\CoronaWebInformation\\CoronaWebInformation.csproj",
+        "projectUniqueName": "C:\\Users\\Andreas\\OneDrive - Bildungsdirektion\\201920\\aut\\C#\\Corona-Livetime-Diagramm\\CoronaWebInformation\\CoronaWebInformation.csproj",
         "projectName": "CoronaWebInformation",
-        "projectPath": "E:\\Coding VisualStudio\\CoronaDiagram\\CoronaWebInformation\\CoronaWebInformation.csproj",
-        "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
-        "outputPath": "E:\\Coding VisualStudio\\CoronaDiagram\\CoronaWebInformation\\obj\\",
+        "projectPath": "C:\\Users\\Andreas\\OneDrive - Bildungsdirektion\\201920\\aut\\C#\\Corona-Livetime-Diagramm\\CoronaWebInformation\\CoronaWebInformation.csproj",
+        "packagesPath": "C:\\Users\\Andreas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andreas\\OneDrive - Bildungsdirektion\\201920\\aut\\C#\\Corona-Livetime-Diagramm\\CoronaWebInformation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\domin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andreas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
