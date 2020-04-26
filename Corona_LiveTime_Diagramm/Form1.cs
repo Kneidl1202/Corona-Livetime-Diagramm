@@ -15,15 +15,6 @@ namespace Corona_LiveTime_Diagramm
         public Form1()
         {
             InitializeComponent();
-            Combine();
-        }
-
-        public void Combine()
-        {
-            Webinformation wf = new Webinformation();
-            string[] wfArr = wf.WebInformation();
-            Diagramm dg = new Diagramm();
-            dg.setDiagramm(wfArr);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -39,12 +30,25 @@ namespace Corona_LiveTime_Diagramm
         public void setValuesDiagramm(string[] xValues, string[] yValues)
         {
             int j = 0;
-            for (int i = 0; i < xValues.Length; i += 2)
+            for (int i = 0; i < 1; i += 2)
             {
-                this.chart1.Series["Death"].Points.AddXY(xValues[i], yValues[j]);
-                this.chart1.Series["Cases"].Points.AddXY(xValues[i + 1], yValues[j]);
+                chart1.Series["Death"].Points.AddXY("max", 22);
+                chart1.Series["Cases"].Points.AddXY("dominik", 11);
                 j++;
             }
+        }
+
+        private void loadDiagramm_Click(object sender, EventArgs e)
+        {
+            Combine();
+        }
+
+        public void Combine()
+        {
+            Webinformation wf = new Webinformation();
+            string[] wfArr = wf.WebInformation();
+            Diagramm dg = new Diagramm();
+            dg.setDiagramm(wfArr);
         }
     }
 }
