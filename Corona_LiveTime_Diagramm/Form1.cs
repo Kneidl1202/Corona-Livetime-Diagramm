@@ -15,6 +15,15 @@ namespace Corona_LiveTime_Diagramm
         public Form1()
         {
             InitializeComponent();
+            Combine();
+        }
+
+        public void Combine()
+        {
+            Webinformation wf = new Webinformation();
+            string[] wfArr = wf.WebInformation();
+            Diagramm dg = new Diagramm();
+            dg.setDiagramm(wfArr);
         }
 
         private void Form1_Load(object sender, EventArgs e)
