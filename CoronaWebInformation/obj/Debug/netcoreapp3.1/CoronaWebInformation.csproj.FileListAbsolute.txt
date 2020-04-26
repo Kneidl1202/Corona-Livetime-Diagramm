@@ -1,0 +1,13 @@
+E:\Coding VisualStudio\CoronaDiagram\CoronaWebInformation\obj\Debug\netcoreapp3.1\CoronaWebInformation.csprojAssemblyReference.cache
+E:\Coding VisualStudio\CoronaDiagram\CoronaWebInformation\obj\Debug\netcoreapp3.1\CoronaWebInformation.csproj.CoreCompileInputs.cache
+E:\Coding VisualStudio\CoronaDiagram\CoronaWebInformation\obj\Debug\netcoreapp3.1\CoronaWebInformation.AssemblyInfoInputs.cache
+E:\Coding VisualStudio\CoronaDiagram\CoronaWebInformation\obj\Debug\netcoreapp3.1\CoronaWebInformation.AssemblyInfo.cs
+E:\Coding VisualStudio\CoronaDiagram\CoronaWebInformation\bin\Debug\netcoreapp3.1\CoronaWebInformation.exe
+E:\Coding VisualStudio\CoronaDiagram\CoronaWebInformation\bin\Debug\netcoreapp3.1\CoronaWebInformation.deps.json
+E:\Coding VisualStudio\CoronaDiagram\CoronaWebInformation\bin\Debug\netcoreapp3.1\CoronaWebInformation.runtimeconfig.json
+E:\Coding VisualStudio\CoronaDiagram\CoronaWebInformation\bin\Debug\netcoreapp3.1\CoronaWebInformation.runtimeconfig.dev.json
+E:\Coding VisualStudio\CoronaDiagram\CoronaWebInformation\bin\Debug\netcoreapp3.1\CoronaWebInformation.dll
+E:\Coding VisualStudio\CoronaDiagram\CoronaWebInformation\bin\Debug\netcoreapp3.1\CoronaWebInformation.pdb
+E:\Coding VisualStudio\CoronaDiagram\CoronaWebInformation\obj\Debug\netcoreapp3.1\CoronaWebInformation.dll
+E:\Coding VisualStudio\CoronaDiagram\CoronaWebInformation\obj\Debug\netcoreapp3.1\CoronaWebInformation.pdb
+E:\Coding VisualStudio\CoronaDiagram\CoronaWebInformation\obj\Debug\netcoreapp3.1\CoronaWebInformation.genruntimeconfig.cache
