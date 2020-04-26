@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System;
+using System.Net;
 
 namespace Corona_LiveTime_Diagramm
 {
@@ -36,7 +37,7 @@ namespace Corona_LiveTime_Diagramm
             //Data is on line 790
 
             //splits the input into lines
-            string[] lines = input.Split();
+            string[] lines = input.Split('\n');
 
             //The Dateline is the exact line... also the info line
             string dateline = lines[763];
@@ -55,11 +56,11 @@ namespace Corona_LiveTime_Diagramm
             //Data is on line 954
 
             //splits the input into lines
-            string[] lines = input.Split();
+            string[] lines = input.Split('\n');
 
             //The Dateline is the exact line... also the info line
-            string dateline = lines[763];
-            string Infoline = lines[789];
+            string dateline = lines[929];
+            string Infoline = lines[953];
 
             //removes the parts
             return (RemoveBracket(dateline), RemoveBracket(Infoline));
