@@ -24,8 +24,8 @@ namespace Corona_LiveTime_Diagramm
             int j = 0;
             for(int i = 0; i < cases.Length; i += 2)
             {
-                xValues[i] = deaths[j];
-                xValues[i + 1] = cases[j];
+                xValues[i] = deaths[j].replace('"', '');
+                xValues[i + 1] = cases[j].replace('"', '');
                 j++;
             }
 
