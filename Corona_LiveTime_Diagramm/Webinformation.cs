@@ -6,7 +6,7 @@ namespace Corona_LiveTime_Diagramm
     {
         #region WebInformation
 
-        // returns a string[,]: first = casesdate, second = casesinfo, third = datedeath, fourth = infodeath;
+        // returns a string[,]: first = casesdate, second = casesinfo,  third = infodeath;
 
         public string[] WebInformation()
         {
@@ -23,7 +23,7 @@ namespace Corona_LiveTime_Diagramm
             string infodeath = Death(htmltext).info;
 
             // string []
-            string[] output = { casesdate, casesinfo, datedeath, infodeath };
+            string[] output = { casesdate, casesinfo, infodeath };
             //returns output
             return output;
         }
