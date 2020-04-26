@@ -8,3 +8,13 @@ E:\Coding VisualStudio\Corona-Livetime-Diagramm\Corona_LiveTime_Diagramm\obj\Deb
 E:\Coding VisualStudio\Corona-Livetime-Diagramm\Corona_LiveTime_Diagramm\obj\Debug\Corona_LiveTime_Diagramm.csproj.CoreCompileInputs.cache
 E:\Coding VisualStudio\Corona-Livetime-Diagramm\Corona_LiveTime_Diagramm\obj\Debug\Corona_LiveTime_Diagramm.exe
 E:\Coding VisualStudio\Corona-Livetime-Diagramm\Corona_LiveTime_Diagramm\obj\Debug\Corona_LiveTime_Diagramm.pdb
+C:\Users\Andreas\Desktop\Corona-Livetime-Diagramm\Corona_LiveTime_Diagramm\bin\Debug\Corona_LiveTime_Diagramm.exe.config
+C:\Users\Andreas\Desktop\Corona-Livetime-Diagramm\Corona_LiveTime_Diagramm\bin\Debug\Corona_LiveTime_Diagramm.exe
+C:\Users\Andreas\Desktop\Corona-Livetime-Diagramm\Corona_LiveTime_Diagramm\bin\Debug\Corona_LiveTime_Diagramm.pdb
+C:\Users\Andreas\Desktop\Corona-Livetime-Diagramm\Corona_LiveTime_Diagramm\obj\Debug\Corona_LiveTime_Diagramm.csprojAssemblyReference.cache
+C:\Users\Andreas\Desktop\Corona-Livetime-Diagramm\Corona_LiveTime_Diagramm\obj\Debug\Corona_LiveTime_Diagramm.Form1.resources
+C:\Users\Andreas\Desktop\Corona-Livetime-Diagramm\Corona_LiveTime_Diagramm\obj\Debug\Corona_LiveTime_Diagramm.Properties.Resources.resources
+C:\Users\Andreas\Desktop\Corona-Livetime-Diagramm\Corona_LiveTime_Diagramm\obj\Debug\Corona_LiveTime_Diagramm.csproj.GenerateResource.cache
+C:\Users\Andreas\Desktop\Corona-Livetime-Diagramm\Corona_LiveTime_Diagramm\obj\Debug\Corona_LiveTime_Diagramm.csproj.CoreCompileInputs.cache
+C:\Users\Andreas\Desktop\Corona-Livetime-Diagramm\Corona_LiveTime_Diagramm\obj\Debug\Corona_LiveTime_Diagramm.exe
+C:\Users\Andreas\Desktop\Corona-Livetime-Diagramm\Corona_LiveTime_Diagramm\obj\Debug\Corona_LiveTime_Diagramm.pdb

@@ -18,14 +18,20 @@ namespace Corona_LiveTime_Diagramm
             string[] deaths = datas[2].Split(',');
 
             int dateDifference = datas[0].Split(',').Length;
-            string[] xValues = new string[dateDifference];
-            string[] yValues = dates;
+            string[] xValues = new string[dateDifference * 2];
+            string[] yValues = new string[dates.Length];
+
+            for (int i = 0; i < yValues.Length; i++)
+            {
+                string temp = dates[i].Replace("\\", "");
+                yValues[i] = temp.Replace("\"", "");
+            }
 
             int j = 0;
-            for(int i = 0; i < cases.Length; i += 2)
+            for(int i = 0; i < cases.Length * 2; i += 2)
             {
-                xValues[i] = deaths[j].Replace("\"","");
-                xValues[i + 1] = cases[j].Replace("\"", "");
+                xValues[i] = deaths[j];
+                xValues[i + 1] = cases[j];
                 j++;
             }
 
