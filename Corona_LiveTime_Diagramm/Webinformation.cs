@@ -40,8 +40,8 @@ namespace Corona_LiveTime_Diagramm
             string[] lines = input.Split('\n');
 
             //The Dateline is the exact line... also the info line
-            string dateline = lines[763];
-            string Infoline = lines[789];
+            string dateline = lines[764];
+            string Infoline = lines[790];
 
             //removes the parts
             return (RemoveBracket(dateline), RemoveBracket(Infoline));
@@ -59,8 +59,8 @@ namespace Corona_LiveTime_Diagramm
             string[] lines = input.Split('\n');
 
             //The Dateline is the exact line... also the info line
-            string dateline = lines[929];
-            string Infoline = lines[953];
+            string dateline = lines[930];
+            string Infoline = lines[954];
 
             //removes the parts
             return (RemoveBracket(dateline), RemoveBracket(Infoline));
