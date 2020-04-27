@@ -15,6 +15,7 @@ namespace Corona_LiveTime_Diagramm
         public Form1()
         {
             InitializeComponent();
+            chart1.Titles.Add("Corona deaths and cases");
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -27,28 +28,23 @@ namespace Corona_LiveTime_Diagramm
             
         }
 
-        public void setValuesDiagramm(string[] xValues, string[] yValues)
-        {
-            int j = 0;
-            for (int i = 0; i < 1; i += 2)
-            {
-                chart1.Series["Death"].Points.AddXY("max", 22);
-                chart1.Series["Cases"].Points.AddXY("dominik", 11);
-                j++;
-            }
-        }
-
         private void loadDiagramm_Click(object sender, EventArgs e)
-        {
-            Combine();
-        }
-
-        public void Combine()
         {
             Webinformation wf = new Webinformation();
             string[] wfArr = wf.WebInformation();
             Diagramm dg = new Diagramm();
-            dg.setDiagramm(wfArr);
+            string[] xValues = dg.setDiagramm(wfArr).yValues;
+            string[] yValues = dg.setDiagramm(wfArr).xValues;
+
+            int j = 0;
+            for (int i = 0; i < xValues.Length * 2; i += 2)
+            {
+                chart1.Series["Death"].Points.AddXY(xValues[j], Convert.ToInt32(yValues[i]));
+                chart1.Series["Cases"].Points.AddXY(xValues[j], Convert.ToInt32(yValues[i + 1]));
+                chart2.Series["Deaths"].Points.AddXY(xValues[j], Convert.ToInt32(yValues[i]));
+                chart3.Series["Cases"].Points.AddXY(xValues[j], Convert.ToInt32(yValues[i + 1]));
+                j++;
+            }
         }
     }
 }

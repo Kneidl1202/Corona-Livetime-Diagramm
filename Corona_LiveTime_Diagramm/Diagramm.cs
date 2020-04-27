@@ -9,7 +9,7 @@ namespace Corona_LiveTime_Diagramm
     class Diagramm
     {
 
-        public void setDiagramm(string[] datas)
+        public (string[] xValues, string[] yValues) setDiagramm(string[] datas)
         {
             // datas is a string[,]: first = casesdate, second = casesinfo, third = infodeath;
 
@@ -35,8 +35,7 @@ namespace Corona_LiveTime_Diagramm
                 j++;
             }
 
-            Form1 f1 = new Form1();
-            f1.setValuesDiagramm(xValues, yValues);
+            return (xValues, yValues);
         } 
     }
 }
